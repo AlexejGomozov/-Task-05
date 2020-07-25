@@ -11,19 +11,19 @@ package by.htp.onedimensionalarrays.logic;
 		
 		       boolean increasOr = false;
 		
-		         for (int i = 1; i< x.length; i++) {
+		            for (int i = 1; i< x.length; i++) {
 			
-			       if(x[i-1]< x[i]) increasOr = true;
+			         if(x[i-1]< x[i]) increasOr = true;
 			
-			         else increasOr = false;
-		              }
-		               return  increasOr; 
-	                    }
+			            else increasOr = false;
+		                       }
+		                        return  increasOr; 
+	                                   }
 		
-	                   public static void main(String[]args) {
+	                                public static void main(String[]args) {
 		
-		            int [] increasingNumb = {1, 2, 3, 4, 5, 6, 7, 8, 0};
+		                    int [] increasingNumb = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 		
-		         System.out.print( increasOrNot(increasingNumb));
-	           }
-             }
+		              System.out.print( increasOrNot(increasingNumb));
+	                }
+                }
