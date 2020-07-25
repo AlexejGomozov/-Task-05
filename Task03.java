@@ -14,9 +14,9 @@ package by.htp.onedimensionalarrays.logic;
 		       else sign = "Раньше встречается отрицательное число";
 		
 		 	      return  sign ;
-	               }
+	                        }
 		
-	              public static void main(String [] args) {
+	                      public static void main(String [] args) {
 		
 		     int [] numbers = {1, 3,-3, 0, 3, -2, -1};     // с пустым массивом все ячейки определяются как "0" , а это как отрицательное значение
 		
