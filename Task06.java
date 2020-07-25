@@ -5,28 +5,30 @@ package by.htp.onedimensionalarrays.logic;
      A sequence of numbers a1, a2, ..., an is given. Specify the smallest length of a numeric 
      axis that contains all of these numbers.*/
 
-   public class Task06 {
+     public class Task06 {
 
 	 public static int  axisLength (int []x) {
 		
-	    int	min = x[0];
+	      int min = x[0];
 		
-	       int	max = x[0];
+	         int max = x[0];
 	
-	         for (int i = 0; i< x.length; i++) {
+	            for (int i = 0; i< x.length; i++) {
 		
 	        	if (x[i] < min) min = x[i];
 		
 	        	  if (x[i] > max) max = x[i];
 		
-	               }		
-		            return  max - min;
-	                 }	
+	                     }		
+		             return  max - min;
+	                       }	
 	
-	                   public static void main (String [] args) {
+	                         public static void main (String [] args) {
 		
-		                 int [] m = {13, 87, 9, 89, 17, 87, 56, 79, 82, 73, 41, 71, 15}; 		
+		                    int [] m = {13, 87, 9, 89, 17, 87, 56, 79, 82, 73, 41, 71, 15}; 		
 		
-		                   System.out.print("The smallest length of a numeric axis is: " + axisLength(m));
-	                        }
-                             }
+		                       System.out.print("The smallest length of a numeric axis is: " + axisLength(m));
+	                                }
+                                          }
+
+                                           //The smallest length of a numeric axis is: 80
