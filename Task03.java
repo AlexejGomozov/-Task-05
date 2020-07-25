@@ -23,3 +23,4 @@ package by.htp.onedimensionalarrays.logic;
 		 System.out.print(determine(numbers));
 	 }
  }
+//Раньше встречается положительное число
