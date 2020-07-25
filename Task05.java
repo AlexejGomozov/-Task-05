@@ -47,3 +47,6 @@ import java.util.Arrays;
 		                     System.out.print(" - sequence of even numbers");
 		                    }
                            }
+                           //30, 40, 8, 78, 296, 544,  - these numbers will be in the array
+                           // 6 - amount of even numbers. 
+			   //[30, 40, 8, 78, 296, 544] - sequence of even numbers     
