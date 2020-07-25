@@ -40,3 +40,5 @@ import java.util.Arrays;
                                 	       System.out.print(Arrays.toString(opredMassiv(R)));
                                             }
                                        }
+                                       //02579 - these numbers will be in the array
+                                      // [0, 2, 5, 7, 9]
