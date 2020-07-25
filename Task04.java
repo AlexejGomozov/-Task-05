@@ -27,3 +27,4 @@ package by.htp.onedimensionalarrays.logic;
 		              System.out.print( increasOrNot(increasingNumb));
 	                }
                 }
+               //false
