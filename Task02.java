@@ -7,36 +7,36 @@ import java.util.Arrays;
 
  public class Task02 {
 	
-	public static int[] opredMassiv(int [] x) {
+     public static int[] opredMassiv(int [] x) {
 	 
-		int count = 0;
+	  int count = 0;
 		
-            for ( int i = 0; i< x.length; i++) {
+               for ( int i = 0; i< x.length; i++) {
 			
-			   if (x[i] == 0) {count ++; 
+	            if (x[i] == 0) {count ++; 
 			  
-			      System.out.print(i + "" );}    //чтоб видеть какие числа будут в массиве
-                    }	
-                      System.out.println( " - these numbers will be in the array" );
+		        System.out.print(i + "" );}    //чтоб видеть какие числа будут в массиве
+                           }	
+                              System.out.println( " - these numbers will be in the array" );
 		               
-                         int [] nul = new int [count];
+                                  int [] nul = new int [count];
 		
-		                    int i;   int j = 0;
+		                       int i;   int j = 0;
 		                			          		
-							    for (  i = 0; i< x.length; i++) {
+				            for (  i = 0; i< x.length; i++) {
 										
-					               if (x[i] == 0) { 	
+					        if (x[i] == 0) { 	
 					                 
-					                 if (j == count) break;  nul[j] = i; j++;
-					                   }						
-			                             }	
-		                                   return nul;
-	                                        }
+					             if (j == count) break;  nul[j] = i; j++;
+					                }						
+			                                   }	
+		                                            return nul;
+	                                                    }
 	
-                                            public static void main (String [] args) {
+                                                            public static void main (String [] args) {
 	
-	                                     int [] R = {0, 2, 0, 9, 45, 0, 4, 0, 90, 0, 4 };
+	                                              int [] R = {0, 2, 0, 9, 45, 0, 4, 0, 90, 0, 4 };
 				
-                                	System.out.print(Arrays.toString(opredMassiv(R)));
-                                  }
-                               }
+                                	       System.out.print(Arrays.toString(opredMassiv(R)));
+                                            }
+                                       }
