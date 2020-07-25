@@ -12,33 +12,33 @@ import java.util.Arrays;
 
 	  public static int[] sequence (int []x) {
 		
-		 int count = 0;                                                                                //счетчик 
+	     int count = 0;                                                                                //счетчик 
 		
 	        for (int i=0; i< x.length; i++) {
 	
-		       if (x[i]%2 == 0 & x[i] != 0) {
-		    	   count ++;  System.out.print( x[i] + ", " );}                                        //ищем четные числа и количество ячеек в массиве		
+		     if (x[i]%2 == 0 & x[i] != 0) {
+		        count ++;  System.out.print( x[i] + ", " );}                                        //ищем четные числа и количество ячеек в массиве		
                 	}
 	        
-                     if (count > 0) System.out.println( " - these numbers will be in the array" );     // если нет четных чисел это не печатает 
+                           if (count > 0) System.out.println( " - these numbers will be in the array" );     // если нет четных чисел это не печатает 
 	
-	                    System.out.println(count+ " - amount of even numbers. ");                      // количество чет чисел, если "0" - сообщает об этом
+	                     System.out.println(count+ " - amount of even numbers. ");                      // количество чет чисел, если "0" - сообщает об этом
 		
-	                       int [] evenNumbers = new int [count];
+	                        int [] evenNumbers = new int [count];
 	
-	                          if (count == 0)      return  evenNumbers;
+	                           if (count == 0)      return  evenNumbers;
 	
-	                             int j = 0; for (int i=0; i< x.length; i++) {                          //новый массив с четными числами 
+	                              int j = 0; for (int i=0; i< x.length; i++) {                          //новый массив с четными числами 
 		
-	                    	       if (x[i] % 2 == 0 & x[i] != 0)  {
+	                    	         if (x[i] % 2 == 0 & x[i] != 0)  {
 	                    	    	   
-	                    	          if (j == count) break; evenNumbers[j] = x[i]; j++; 
-	                    	           }		
+	                    	           if (j == count) break; evenNumbers[j] = x[i]; j++; 
+	                    	            }		
 	                                    }				
-		                                 return  evenNumbers;
-	                                      }
+		                               return  evenNumbers;
+	                                        }
 		
-	                                     public static void main(String [] args) {
+	                                        public static void main(String [] args) {
 		
 		                             int [] numbers = {30, 67, 40, 8, 87, 0, 5, 78, 296, 544};
 			
