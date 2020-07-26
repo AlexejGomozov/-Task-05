@@ -4,35 +4,35 @@ import java.util.Arrays;
   элементы.
   You are given real numbers a1, a2, ..., an. Swap the largest and smallest items. */
 
-   public class Task09 {
+     public class Task09 {
 
 	  public static int[]order (int[]x){
 		
-		  boolean g = false;
+	       boolean g = false;
 		
 		    int bg = 0;
 		
-		       while(!g) {
+		        while(!g) {
 			
-		       	 g = true;
+		            g = true;
 			
 			       for(int i = 1; i < x.length; i++) {
 				
-				      if(x[i-1] > x[i]) {
+				     if(x[i-1] > x[i]) {
 					
-					     g = false;
+					 g = false;
 					
-					       bg = x[i-1];
+					     bg = x[i-1];
 					
-					          x[i-1] = x[i];
+					         x[i-1] = x[i];
 					
 					             x[i] = bg;
-				                 }
-			                       }
-		                             }
+				                      }
+			                                }
+		                                          }
 		
-		                               return x;
-	                                     }
+		                                            return x;
+	                                                      }
 	
 	                                public static void main(String[]args) {
 		
@@ -42,3 +42,4 @@ import java.util.Arrays;
 		
 	        }
        }
+                       //[0, 7, 23, 37, 52, 52, 52, 62, 62, 65, 82, 87, 89, 93]
