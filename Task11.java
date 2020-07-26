@@ -5,47 +5,45 @@ import java.util.Arrays;
     Natural numbers a1, a2, ..., an are given. Indicate those of them for which 
     the remainder of division by M is equal to L (0 <L <M-1).*/
 
-public class Task11 {
+ public class Task11 {
 
-public static int counter (int [] y, int p) {
+    public static int counter (int [] y, int p) {
 			
-		int count = 0;
+      int count = 0;
 		
-		for (int i = 0; i < y.length; i ++) {
+        for (int i = 0; i < y.length; i ++) {
 			
-			if(y[i]/p > 0 & (y[i]/p < (p - 1))) count ++;
-		}
-		
-		return count;
-	}
+	  if(y[i]/p > 0 & (y[i]/p < (p - 1))) count ++;
+	    }
+            return count;
+	      }
 	
-	public static int[] remainderDivision(int [] x, int m) {
+	               public static int[] remainderDivision(int [] x, int m) {
 		
-		int j = 0;
+		          int j = 0;
 		
-		int [] remainder = new int [counter(x, m)];
+		             int [] remainder = new int [counter(x, m)];
 		
-		for (int i = 0; i < x.length; i ++) {
+		                for (int i = 0; i < x.length; i ++) {
 			
-			if(x[i]/m > 0 & (x[i]/m < (m - 1))) {
+			            if(x[i]/m > 0 & (x[i]/m < (m - 1))) {
 				
-				if (j == counter(x, m)) break;
+				        if (j == counter(x, m)) break;
 				
-				remainder[j] = x[i]; j ++;
-			}			
-		}		
-		return remainder;
-	}
+				           remainder[j] = x[i]; j ++;
+			                    }			
+		                              }		
+		                              return remainder;
+	                                        }
 	
-	
-	
-	public static void main(String[] args) {
+	                                      public static void main(String[] args) {
 		  
-		int s = 9;
+		                         int s = 9;
 		
-		int []r = {7, 65, 82, 73, 90, 10, 76, 62, 73, 75, 60};
+		                 int []r = {7, 65, 82, 73, 90, 10, 76, 62, 73, 75, 60};
 		
-		System.out.print(Arrays.toString(remainderDivision(r, s)));
+		     System.out.print(Arrays.toString(remainderDivision(r, s)));
 		
-	}
-}
+	      }
+      }
+            //[65, 10, 62, 60]
