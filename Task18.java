@@ -6,9 +6,9 @@ package by.htp.onedimensionalarrays.logic;
  *   (Игральный кубик имеет на каждой грани от 1 до 6 точек). Напишите программу, которая
  *     разгадывает код замка при условии, что два кубика уже вставлены в ячейки.  */
 
-public class Task18 {
+        public class Task18 {
 
-	public static int thirdСell () {   
+	    public static int thirdСell () {   
 		
 		int third;
 		
@@ -45,3 +45,5 @@ public class Task18 {
 		
 	}
 }
+//6, 1, 3
+//10
