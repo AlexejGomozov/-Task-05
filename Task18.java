@@ -8,7 +8,7 @@ package by.htp.onedimensionalarrays.logic;
 
         public class Task18 {
 
-	    public static int thirdСell () {   
+	    public static int thirdСell () {                                        //not done yet
 		
 		int third;
 		
